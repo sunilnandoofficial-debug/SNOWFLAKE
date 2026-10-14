@@ -1,0 +1,4 @@
+product_id,product_name,product_category,standard_cost
+P001,Claims Platform,Software,120.00
+P002,Analytics Service,Service,45.00
+P003,Data Integration,Service,70.00

@@ -1,0 +1,4 @@
+customer_id,customer_name,country,updated_at
+C001,Acme Health,US,2026-09-01 10:00:00
+C002,Northwind Care,US,2026-09-02 11:00:00
+C003,Bluebird Services,GB,2026-09-03 12:00:00

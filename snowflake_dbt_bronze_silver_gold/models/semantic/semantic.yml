@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: vw_sales_semantic
+    description: "Governed consumption view for BI tools. Net sales equals gross sales less discount."
+    columns:
+      - name: sale_id
+        description: "Unique transaction identifier."
+        tests: [not_null, unique]
+      - name: net_sales_amount
+        description: "Gross sales minus discount, in the transaction currency."
+      - name: currency_code
+        description: "ISO-style transaction currency code; do not combine currencies without FX conversion."
