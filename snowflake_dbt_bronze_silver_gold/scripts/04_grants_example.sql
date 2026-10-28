@@ -1,8 +1,0 @@
--- Illustrative least-privilege grants. Replace role names with your security model.
--- Do not grant broad access to raw PHI/PII by default.
--- GRANT USAGE ON DATABASE DBT_DEMO TO ROLE BI_CONSUMER;
--- GRANT USAGE ON SCHEMA DBT_DEMO.SEMANTIC TO ROLE BI_CONSUMER;
--- GRANT SELECT ON VIEW DBT_DEMO.SEMANTIC.VW_SALES_SEMANTIC TO ROLE BI_CONSUMER;
---
--- For native semantic views, use the applicable Snowflake privileges for your account.
--- Also implement masking/row access policies where required and audit access/query history.
